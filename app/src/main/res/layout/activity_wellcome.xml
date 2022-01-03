@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/wellcome_activity"
+    tools:context=".WellcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/wellcome"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/cyan_300"
+            android:textStyle="bold"
+            android:fontFamily="@font/comfortaa"
+            android:text="J-Cashier Mobile"
+            android:textSize="32dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/cyan_300"
+            android:textStyle="bold"
+            android:fontFamily="@font/comfortaa"
+            android:text="@string/version"
+            android:textSize="15dp"
+            android:layout_marginBottom="85dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/wellcome_1"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:fontFamily="@font/comfortaa"
+            android:text="Aplikasi kasir mobile simpel"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/comfortaa"
+            android:text="Didesain dengan style yang simpel dan user-interface yang mudah dipahami."
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="85dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/wellcome_2"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:fontFamily="@font/comfortaa"
+            android:text="Fitur Hitung Uang Kembalian dan Pencatatan Transaksi"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/comfortaa"
+            android:text="Guna mempermudah pengguna ketika menghitung uang kembalian dan mencatat seluruh transaksi."
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="85dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/wellcome_3"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:fontFamily="@font/comfortaa"
+            android:text="Kirim Laporan dimana aja dan kapan aja"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/comfortaa"
+            android:text="Tidak perlu khawatir bikin laporan, karena kini J-Cashier Mobile dilengkapi dengan fitur Kirim Laporan menggunakan aplikasi kirim pesan apasaja."
+            android:textSize="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="85dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="25dp"
+                android:text="Lanjutkan"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/cyan_300"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

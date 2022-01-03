@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">J-Cashier Mobile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_desc">"Halo, saya Jakkirahman, sang developer dari aplikasi J-Cashier Mobile. Aplikasi ini merupakan bahan tugas besar dari mata kuliah Program Profesional yang saya tempuh saat ini di Universitas Palangka Raya dengan tema program BUMDes. Terima kasih sudah menggunakan aplikasi ini."</string>
+    <string name="version">Versi Aplikasi 0.17 Beta</string>
+
+    //Wellcome text on fragment_hint
+    <string name="wellcome">Selamat datang di aplikasi</string>
+
+    <string name="main">Halaman Daftar Produk berguna untuk menampilkan seluruh produk yang tersedia. Kamu dapat menambahkan produk kamu di Navigasi > Produk > Tambah/Ubah Produk.</string>
+
+    <string name="order">Halaman Detail Produk berguna untuk menentukan jumlah barang yang dipilih. Kamu dapat menambah atau mengurangi jumlah dari barang yang dipilih menggunakan tombol tambah dan kurang yang tersedia.</string>
+
+    <string name="cart">Halaman Keranjang Belanja berguna untuk menampung seluruh produk yang dipilih. Kamu dapat menghapus barang yang ada di keranjang belanja cukup dengan cara mengklik barang yang dipilih untuk dihapus atau dengan tombol bak sampah pada pojok kanan atas untuk menghapus seluruh isi dari keranjang belanja.</string>
+
+    <string name="calculation">Halaman Hitung Uang Kembalian merupakan fitur utama dari aplikasi ini loh. Halaman ini menyediakan kalkulator untuk menghitung uang kembalian. Cukup dengan memasukkan nominal dari uang yang dibayarkan oleh pembeli, secara otomatis setelah kamu menekan enter dari keyboard, sistem akan menampilkan keluaran dari jumlah uang kembalian. Setelah kamu mengklik selesai, sistem akan menyimpan transaksimu.</string>
+
+    <string name="sendreport">Kirim Laporan merupakan fitur kedua dari aplikasi ini. Dengan mengumpulkan teks dari database dan ditempelkan ke aplikasi kirim pesan pihak ketiga yang tersedia di smartphone kamu.</string>
+
+    <string name="deletedatabase">Hapus Database berfungsi untuk menghapus seluruh database dari transaksi yang sudah berlangsung.</string>
+
+    <string name="product">Pada menu Produk ini kamu dapat menambahkan atau menghapus produk kamu ke dalam database dan menampilkannya dihalaman Daftar Produk.</string>
+
+    <string name="about">Halaman Tentang Aplikasi berisikan informasi terkait sang develover dari aplikasi ini. Kamu juga dapat melaporkan masalah jika terdapat bugs pada aplikasi ini melalui email yang sudah kami sediakan.</string>
+
+    <string name="exit">Untuk keluar aplikasi, kamu dapat melakukan dengan membuka Navigasi > Keluar.</string>
+</resources>

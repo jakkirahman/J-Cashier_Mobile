@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".SplashScreen"
+    android:id="@+id/splashscreen">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="160dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J-Cashier Mobile"
+        android:textSize="30dp"
+        android:fontFamily="@font/comfortaa"
+        android:textStyle="bold"
+        android:textColor="@color/cyan_300"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
